@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title> Trip Track | Sign Up</title>
+      <link rel="stylesheet" href="loginstyle.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+      <style>
+           .btn1{
+              padding:10px 30px;
+              margin:10px 100px;
+              border-radius: 15px;
+              cursor: pointer;
+              transition: 0.1s;
+              font-weight: 600;
+              box-shadow: 1px 4px 6px black;
+           }
+           .btn1:hover{
+               background: rgb(84, 130, 239);
+               color:white;
+           }
+      </style>
+    </head>
+      <body>
+        <div class="signup-box">
+          <h1>TripTrack</h1>
+          <h4>Sign up, It's free and only takes a minute</h4>
+          <form action="signup.php" method="POST">
+            <label>User Name</label>
+            <input type="text" name="username" placeholder="" />
+            <label>Gmail</label>
+            <input type="gmail" name="gmail" placeholder="" />
+            <label>Password</label>
+            <input type="password" name="password" placeholder="" />
+            <!-- <input type="submit" value="Submit" class='btn' /> -->
+            <button class="btn1">Submit</button>
+          </form>
+          <p class="para-2">
+            Already have an account? <a href="signin.html">Login here</a><br>
+            Go to home <a href="index.php">Click here</a>
+          </p>
+          
+        </div>
+         <style>
+            h1{
+              margin-right: 30px;
+              margin-bottom: 8px;
+            }
+            h4{
+              margin-right: 30px;
+            }
+         </style>
+      </body>
+  </html>
