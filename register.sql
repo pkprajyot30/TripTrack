@@ -38,12 +38,7 @@ CREATE TABLE `form` (
 --
 
 INSERT INTO `form` (`username`, `email`, `password`) VALUES
-('Sneha Panda', 'snehapanda@gmail.com', '12345'),
-('Sneha', 'snehapanda@gmail.com', '12345'),
-('21BCA015', 'pkprajyot15@gmail.com', '55555'),
-('sneha', 'snehapanda@gmail.com', '12345'),
-('sneha', 'snehapanda@gmail.com', '12345');
-
+('Pk', 'admin@gmail.com', '12345'),
 -- --------------------------------------------------------
 
 --
